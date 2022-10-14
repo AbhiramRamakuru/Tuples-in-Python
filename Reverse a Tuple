@@ -1,0 +1,34 @@
+'''
+QUESTION:
+Write a Python program to reverse a tuple.
+
+Sample Input & Output:
+cyfuno
+('o', 'n', 'u', 'f', 'y', 'c')
+
+'''
+
+# PROGRAM (Answer):
+
+#1st Method
+a = input()
+b = tuple(a)
+b = b[::-1]
+print(b)
+
+
+# #2nd Method
+# s = input()
+# s = s[::-1]
+# print(tuple(s))
+
+
+# #3rd Method   #Using Resversed function
+# a = input()
+# b = tuple(a)
+# c = ()
+# for i in reversed(b):
+#     c = c + (i,)      # c=c+(i) gives error as (i) is an integer, but not a tuple
+# print(c)
+    
+
