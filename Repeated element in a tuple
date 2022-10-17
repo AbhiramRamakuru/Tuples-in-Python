@@ -1,0 +1,38 @@
+'''
+QUESTION:
+Write a python program to find the repeated items of a tuple.
+
+Sample Input:
+2,4,7,8,5,2,4,9,4
+4
+
+Sample Output:
+3
+
+'''
+
+# PROGRAM (Answer):
+
+#1st Method
+a = (2,4,5,6,2,3,4,4,7)
+b = int(input())
+print(a)
+print(a.count(b))
+
+
+
+# #2nd Method
+# a = (2,4,5,6,2,3,4,4,7)
+# b = int(input())
+# count=0
+# print(a)
+# if b in a:
+#     for i in a:
+#         if i == b:
+#             count+=1
+#     print(count)
+# else:
+#     print("Not present in tuple")
+            
+            
+            
